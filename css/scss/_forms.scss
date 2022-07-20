@@ -70,12 +70,14 @@ label>input[type="radio"] {
     
 }
 $estilos :(
-    color: var(--color-1-lighter),
+    color: rgba(255, 255, 255, 0.2),
     centro: center,
     tFuente:  var( --text-md ),
+    filter: blur(8px),
 );
 
 .formstyle {
     background-color: map-get($estilos, color);
+    backdrop-filter: map-get($estilos, filter);
     @include flex-center;
 }

@@ -169,10 +169,10 @@ p{
 @media screen and (min-width: 992px) {
     #grilla {
       grid-template-areas:
-        "header header header"
-        "nav main_body main_body"
-        "footer footer footer";
-    grid-template-columns: auto auto auto ;
+        "header header"
+        "nav main_body"
+        "footer footer";
+    grid-template-columns: auto auto;
     }
 }
 /* ===================================================================

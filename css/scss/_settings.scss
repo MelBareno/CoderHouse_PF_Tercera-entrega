@@ -64,6 +64,7 @@
          --color-btn-text                : var(--color-black);
          --color-btn-hover               : var(--color-gray-8);
          --color-btn-hover-text          : var(--color-black);
+         --color-btn-input               : var(--color-1-lighter);
         
      
          /* others
@@ -133,7 +134,7 @@
      /* on mobile devices below 600px, change the value of '--multiplier' 
       * to adjust the values of base font size and vertical space unit.
       */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 576px) {
          :root {
              --multiplier : 0.9375;
          }
@@ -161,7 +162,7 @@
      
      /* on mobile devices
       */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 576px) {
          :root {
              --gutter : 1rem
          }
