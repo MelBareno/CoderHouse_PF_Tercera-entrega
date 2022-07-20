@@ -1,7 +1,7 @@
 /* # FORM* */
  fieldset {
     border  : none;
-    padding : 0;
+    padding : 2 rem;
 }
 
 input[type="email"],
@@ -70,14 +70,18 @@ label>input[type="radio"] {
     
 }
 $estilos :(
-    color: rgba(255, 255, 255, 0.2),
-    centro: center,
-    tFuente:  var( --text-md ),
-    filter: blur(8px),
+    color           : rgba(255, 255, 255, 0.2),
+    centro          : center,
+    tFuente         :var( --text-md ),
+    filter          : blur(8px),
+    margen          : 2em,
+    border-radius   : var(--border-radius),
 );
 
 .formstyle {
-    background-color: map-get($estilos, color);
-    backdrop-filter: map-get($estilos, filter);
+    background-color:   map-get($estilos, color);
+    backdrop-filter:    map-get($estilos, filter);
+    padding:            map-get($estilos, margen);
+    border-radius:      map-get($estilos, border-radius);
     @include flex-center;
 }
