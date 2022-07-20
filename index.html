@@ -26,12 +26,25 @@
         <!--inicio header-->
         <header >  
         <!--LOGO-->
-        <div class="s-header__logo"> 
-            <div class="col-12 "> 
-            <a class="logo"  href="index.html">
-                <img src="assets/img/logowodsc.png" alt="Homepage" >
-                The Joy of Being
-            </a>
+        <div class="s-header__logo">
+        <div class="container-fluid">
+            <div class="row"> 
+                <div class="col-6">
+                <a class="logo d-flex justify-content-start"  href="index.html">
+                    <img src="assets/img/logowodsc.png" alt="Homepage" >
+                    TJB
+                </a>
+                </div>
+
+                 <!--search tool-->
+                <div class="col-6 d-flex justify-content-end ">
+                    <form class="form-inline align-self-center">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Ir </button>
+                    </form>
+                </div>
+            </div>
+        </div>
         </div>
         <!--LOGO-->  
         </header>
@@ -40,14 +53,30 @@
 			<div class="col-sm-3">
                 <!--INICIO Navegacion principal-->
                 <nav class="s-header__nav navbar" >
-                    <ul>
-                        <li><a class="navbar-brand" href="index.html">Home</a></li>
-                        <li><a class="navbar-brand" href="pages/marketplace.html">Market Place</a></li>
-                        <li><a class="navbar-brand" href="pages/dondereciclo.html">Donde Reciclo</a></li>
-                        <li><a class="navbar-brand" href="pages/quienessomos.html">Quienes somos</a></li>
-                        <li><a class="navbar-brand" href="pages/contacto.html">Contacto</a></li>
-                        <li><a class="navbar-brand" href="pages/login.html">Iniciar sesión</a></li>
-                    </ul>
+
+                    <nav class="navbar navbar-expand-lg  navbar-light custom-bg">
+                        <ul class="navbar-nav d-block d-lg-none ml-auto mr-3">
+                                <li class="nav-item">
+                        
+                               </li>
+                            </ul>
+                            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                            <div class="collapse navbar-collapse navbar-nav mx-auto order-0" id="navbarSupportedContent">
+                        
+                            <ul class="navbar-nav mx-auto order-0">
+                                <li><a class="navbar-brand" href="index.html">Home</a></li>
+                                <li><a class="navbar-brand" href="pages/marketplace.html">Market Place</a></li>
+                                <li><a class="navbar-brand" href="pages/dondereciclo.html">Donde Reciclo</a></li>
+                                <li><a class="navbar-brand" href="pages/quienessomos.html">Quienes somos</a></li>
+                                <li><a class="navbar-brand" href="pages/contacto.html">Contacto</a></li>
+                                <li><a class="navbar-brand" href="pages/login.html">Iniciar sesión</a></li>
+                        
+                            </ul>
+                        </div>
+                    </nav>  
                 </nav>
             </div>  
                 <!--FIN Navegacion principal-->
